@@ -4,9 +4,9 @@
   {
    "id": "island_tree_01",
    "source": "Poly Haven (CC0)",
-   "origin": "Poly Haven API",
+   "origin": "Poly Haven API + local checksum",
    "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/island_tree_01/island_tree_01.bin",
-   "md5": null,
+   "md5": "8271f2d12c2727bd647ce0c242acdcec",
    "path": "Assets/models/island_tree_01/island_tree_01.bin"
   },
   {
@@ -92,9 +92,9 @@
   {
    "id": "coast_land_rocks_02",
    "source": "Poly Haven (CC0)",
-   "origin": "Poly Haven API",
+   "origin": "Poly Haven API + local checksum",
    "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/coast_land_rocks_02/coast_land_rocks_02.bin",
-   "md5": null,
+   "md5": "bdb0028f3b0d57deadab130fc34135a3",
    "path": "Assets/models/coast_land_rocks_02/coast_land_rocks_02.bin"
   },
   {
@@ -132,9 +132,9 @@
   {
    "id": "shrub_01",
    "source": "Poly Haven (CC0)",
-   "origin": "Poly Haven API",
+   "origin": "Poly Haven API + local checksum",
    "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/shrub_01/shrub_01.bin",
-   "md5": null,
+   "md5": "baf77d162f397f43fa4737b545d73e1a",
    "path": "Assets/models/shrub_01/shrub_01.bin"
   },
   {
@@ -173,7 +173,7 @@
    "id": "bmw_cc0_obj",
    "source": "McGuire Computer Graphics Archive (CC0)",
    "url": "https://casual-effects.com/g3d/data10/research/model/bmw/bmw.zip",
-   "md5": null,
+   "md5": "3547c982417eec4ca8d89579195fe514",
    "archive": "bmw.zip",
    "extract_to": "Assets/vehicles/bmw_cc0",
    "extract_member": "bmw.obj",

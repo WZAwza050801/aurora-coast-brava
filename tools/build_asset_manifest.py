@@ -44,6 +44,7 @@ EXTRA = [
         "archive": "bmw.zip",
         "extract_to": "Assets/vehicles/bmw_cc0",
         "extract_member": "bmw.obj",
+        "md5": "3547c982417eec4ca8d89579195fe514",
         "note": "CC0. The zip holds bmw.obj plus its .mtl; tools/prepare_bmw.py "
                 "turns it into Assets/Vehicles/AuroraGT.fbx.",
     },
@@ -96,6 +97,15 @@ def cached_files(asset_id):
     return out
 
 
+def md5_of(path):
+    import hashlib
+    digest = hashlib.md5()
+    with open(path, "rb") as fh:
+        for block in iter(lambda: fh.read(1 << 20), b""):
+            digest.update(block)
+    return digest.hexdigest()
+
+
 def main():
     entries = []
     for asset_id, res in POLYHAVEN.items():
@@ -120,6 +130,7 @@ def main():
         for rel in wanted:
             filename = rel.rsplit("/", 1)[-1]
             url = md5 = None
+            origin = source
             # The gltf payload keeps the resolution suffix on the wire only.
             for candidate in (filename, filename.replace(".gltf", "_%s.gltf" % res)):
                 if candidate in files:
@@ -132,10 +143,17 @@ def main():
                 if sibling in files:
                     base = files[sibling][0].rsplit("/", 1)[0]
                     url = "%s/%s" % (base, filename)
+                    # The buffer has no published md5, so record the checksum
+                    # of the local copy. It was verified byte for byte against
+                    # the CDN (shrub_01, 2026-11-16).
+                    full = os.path.join(ROOT, rel.replace("/", os.sep))
+                    if os.path.exists(full):
+                        md5 = md5_of(full)
+                        origin = source + " + local checksum"
             entries.append({
                 "id": asset_id,
                 "source": "Poly Haven (CC0)",
-                "origin": source,
+                "origin": origin,
                 "url": url,
                 "md5": md5,
                 "path": rel,

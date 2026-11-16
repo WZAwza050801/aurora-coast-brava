@@ -1,0 +1,59 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    name: Repository checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Repository doctor
+        run: python tools/verify_repo.py
+
+      - name: C# offline lint
+        run: python tools/cs_lint.py
+
+      - name: Asset manifest has a download for every entry
+        # The raw assets are not versioned, but every one of them must still
+        # be reachable and checksummed, or a fresh clone cannot be rebuilt.
+        run: |
+          python - <<'PY'
+          import json, sys
+          data = json.load(open("tools/asset_manifest.json", encoding="utf-8"))
+          entries = data.get("assets", [])
+          bad = [e for e in entries if not e.get("url") or not e.get("md5")]
+          print("%d entries, %d incomplete" % (len(entries), len(bad)))
+          for e in bad:
+              print("  incomplete:", e.get("path") or e.get("id"))
+          sys.exit(1 if bad else 0)
+          PY
+
+      - name: No build products are tracked
+        run: |
+          set -e
+          for p in Assets/Scenes/CostaBrava.unity Assets/GeneratedMeshes \
+                   Assets/models Assets/vehicles/bmw_cc0 build Library \
+                   .workbuddy/venvs; do
+            if git ls-files --error-unmatch "$p" >/dev/null 2>&1; then
+              echo "tracked but should be ignored: $p"; exit 1
+            fi
+          done
+          echo "no build products tracked"
+
+      - name: Licence files are in place
+        run: |
+          set -e
+          grep -q "Attribution-NonCommercial 4.0" LICENSE
+          grep -q "CC0" NOTICE.md
+          grep -q "Ferrari" NOTICE.md
+          echo "licence files look right"

@@ -54,12 +54,19 @@ def check(path):
     n = len(src)
     instr = None
     line = 1
+    # A copy of the source with every comment and string literal blanked
+    # out. The non-ASCII check has to run on that, otherwise a Chinese
+    # comment (which is perfectly legal) is reported as a bad identifier.
+    code_only = list(src)
     while i < n:
         c = src[i]
         if c == '\n':
             line += 1
         if instr is not None:
+            code_only[i] = ' '
             if c == BS:
+                if i + 1 < n:
+                    code_only[i + 1] = ' '
                 i += 2
                 continue
             if c == instr:
@@ -67,6 +74,7 @@ def check(path):
         else:
             if c == '/' and i + 1 < n and src[i + 1] == '/':
                 while i < n and src[i] != '\n':
+                    code_only[i] = ' '
                     i += 1
                 continue
             if c == '/' and i + 1 < n and src[i + 1] == '*':
@@ -74,6 +82,8 @@ def check(path):
                 while i + 1 < n and not (src[i] == '*' and src[i + 1] == '/'):
                     if src[i] == '\n':
                         line += 1
+                    else:
+                        code_only[i] = ' '
                     i += 1
                 i += 2
                 continue
@@ -92,10 +102,12 @@ def check(path):
     if depth != 0:
         messages.append('brace depth %d at end of file' % depth)
 
-    for idx, raw in enumerate(src.splitlines(), 1):
+    # Only the code itself may contain non-ASCII characters. Comments and
+    # string literals are allowed to hold any language.
+    for idx, raw in enumerate("".join(code_only).splitlines(), 1):
         if any(ord(ch) > 0x2100 for ch in raw):
             messages.append('non-ascii identifier at line %d | %s'
-                            % (idx, raw.strip()[:110]))
+                            % (idx, src.splitlines()[idx - 1].strip()[:110]))
 
     # foreach over a GameObject (or Transform) is a compile error: those are
     # not enumerable. Unity catches it, but only after a full build.
@@ -108,9 +120,32 @@ def check(path):
     return (not messages), messages
 
 
+def discover(root):
+    """Every C# source that ships with the project.
+
+    The list used to be hard-coded, which meant a newly added script was
+    never linted until it broke a build. Globbing keeps the check honest
+    as the project grows.
+    """
+    found = []
+    for sub in ("Assets/Scripts", "assets/Editor"):
+        base = os.path.join(root, sub)
+        if not os.path.isdir(base):
+            continue
+        for dirpath, _dirs, names in os.walk(base):
+            for name in sorted(names):
+                if name.endswith(".cs"):
+                    full = os.path.join(dirpath, name)
+                    found.append(os.path.relpath(full, root).replace(os.sep, "/"))
+    return sorted(found)
+
+
 def main(argv):
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    files = argv[1:] if len(argv) > 1 else DEFAULT_FILES
+    files = argv[1:] if len(argv) > 1 else discover(root)
+    if not files:
+        print("No C# sources found under Assets/Scripts or assets/Editor.")
+        return 1
     failed = 0
     for rel in files:
         path = rel if os.path.isabs(rel) else os.path.join(root, rel)

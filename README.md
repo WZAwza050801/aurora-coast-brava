@@ -24,6 +24,9 @@
 ## 🚀 快速开始
 
 ```bash
+# 0. 体检：许可文件、素材引用、密钥扫描、忽略规则、清单完整性、C# 语法
+python tools/verify_repo.py
+
 # 1. 拉取不入库的原始素材（Poly Haven / McGuire，全部 CC0，带 md5 校验）
 python tools/fetch_assets.py
 
@@ -34,6 +37,24 @@ python tools/fetch_assets.py
 build/Windows/AuroraCoast.exe -garagecheck   -screen-width 1280 -screen-height 720
 build/Windows/AuroraCoast.exe -racetest      -screen-width 1280 -screen-height 720
 ```
+
+`tools/verify_repo.py` 就是这个工程的 doctor：**24 项检查全绿**才算状态健康，它同时是 CI 的入口。
+
+### 启用 GitHub Actions
+
+CI 工作流源文件放在 **`tools/ci/ci.yml`**，没有直接放在 `.github/workflows/` 下——因为写入该目录需要 token 具备 `workflow` scope，而 GitHub 会对不满足条件的请求直接返回 404（OAuth token 与经典 PAT 都会被拦）。
+
+激活只需两步：
+
+```bash
+# 1. 复制到 GitHub 认的位置
+mkdir -p .github/workflows && cp tools/ci/ci.yml .github/workflows/ci.yml
+
+# 2. token 需要 workflow scope（经典 PAT 勾选，OAuth 用 gh auth refresh -h github.com -s workflow）
+git add .github/workflows/ci.yml && git commit -m "ci: 启用仓库检查工作流" && git push
+```
+
+工作流本身不需要 Unity：它跑的是 `tools/verify_repo.py`（许可文件、素材引用、密钥扫描、忽略规则、清单完整性）、`tools/cs_lint.py`（C# 离线语法检查）、清单 URL/md5 完整性，以及「构建产物没有被入库」的回归检查。
 
 **为什么场景不在仓库里**：`AuroraProjectBuilder.BuildCompleteRace()` 每次都从**空场景**重建整条赛道并覆盖 `Assets/Scenes/CostaBrava.unity`，同时清空重建 `Assets/GeneratedMeshes/`。把生成物提交进来只会有两类问题：每次构建产生 5 MB 无意义 diff，以及场景里引用的 GUID 指向只存在于某台机器上的生成网格。所以**源码是唯一事实源，场景由生成器产出**（见 `.gitignore` 注释）。
 
