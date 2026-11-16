@@ -85,7 +85,17 @@ CC BY 3.0 全文：https://creativecommons.org/licenses/by/3.0/
 
 ---
 
-## 5. 明确排除、不进本仓库的素材
+## 5. 第三方素材 · 代码库内嵌的第三方包
+
+| 内容 | 来源 | 许可 | 处理 |
+|---|---|---|---|
+| `Packages/com.coplaydev.unity-mcp/`（MCP for Unity v10.0.0） | [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) | **MIT**，Copyright (c) 2025 CoplayDev | 作为 Unity 内嵌包随仓库分发，**许可正文已随附**在该目录的 `LICENSE` 文件中 |
+
+这个包只服务于**编辑器控制链路**（`tools/unity_mcp.py` → MCP for Unity → 无头 Unity 编辑器），游戏本体不依赖它。
+
+---
+
+## 6. 明确排除、不进本仓库的素材
 
 | 被排除的 | 原因 |
 |---|---|
@@ -95,7 +105,7 @@ CC BY 3.0 全文：https://creativecommons.org/licenses/by/3.0/
 
 ---
 
-## 6. 引用本仓库时的署名格式
+## 7. 引用本仓库时的署名格式
 
 如果你要引用、改编或再分发本仓库的**代码与原创内容**，请按 CC BY-NC 4.0 署名：
 
@@ -110,7 +120,7 @@ by [作者]
 
 ---
 
-## 7. 一句话总结
+## 8. 一句话总结
 
 | 类别 | 数量 | 状态 |
 |---|---|---|

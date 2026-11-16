@@ -5,8 +5,8 @@
 > **抄送**：`partnerships@mclaren.com`（McLaren Racing 商务拓展，主要管 F1，但抄送能让 McLaren 内部知道有申请在走）。
 > **建议同时走 McLaren 官网联系表单**：`mclarencars.com` → Contact（邮件 + 表单双通道，能提高被看到的概率）。
 > **主题行**：主题里必须出现 McLaren + Video Game Licensing + 你的项目名，否则在 CAA 的 intake 里会被当普通咨询丢掉。
-> **附件**：`01_PROJECT_BRIEF.md` 转成 PDF（安安自己的机器上可用 Edge 无头打印，已验证可行：`msedge --headless --print-to-pdf`）。
-> **发送方式**：本机 Agent Mail（`gsnj9411@agent.qq.com`）可代发，但对外不可逆，**需要你确认后我才发**；也可以你自己复制到邮箱客户端。
+> **附件**：`01_PROJECT_BRIEF.md` 转成 PDF（作者自己的机器上可用 Edge 无头打印，已验证可行：`msedge --headless --print-to-pdf`）。
+> **发送方式**：本机 Agent Mail（`$AGENT_MAIL_ADDRESS`）可代发，但对外不可逆，**需要你确认后我才发**；也可以你自己复制到邮箱客户端。
 
 ---
 
