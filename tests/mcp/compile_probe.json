@@ -1,0 +1,4 @@
+{
+  "action": "execute",
+  "code": "var flags = System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public; string probe = \"catalog_cars=\" + VehicleCatalog.Cars.Length; probe += \" | garage_type=\" + typeof(VehicleGarage).FullName; probe += \" | hud_cycle=\" + (typeof(RaceHud).GetMethod(\"CycleGarage\", flags) != null); probe += \" | smoke_garage=\" + (typeof(FullRaceSmokeTest).GetMethod(\"GarageChecks\", flags) != null); probe += \" | pause_options=\" + typeof(RaceHud).GetField(\"PauseOptions\", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Static).GetValue(null).ToString(); UnityEngine.Debug.Log(\"COMPILE_PROBE \" + probe); return probe;"
+}

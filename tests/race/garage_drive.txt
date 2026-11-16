@@ -1,0 +1,20 @@
+garage_drive_utc=2026-11-15T22:29:09.6406481Z
+device=Intel(R) Iris(R) Xe Graphics
+resolution=1280x720
+swap_0 | target=hdMuscleCoupe | active_bodies=1 | mass=1350.0 | wheelcolliders=4 | wheel_visuals=4 | speed_kph=47.8 | grounded=4 | checkpoint=1
+swap_1 | target=hdClassicSaloon | active_bodies=1 | mass=1350.0 | wheelcolliders=4 | wheel_visuals=4 | speed_kph=52.4 | grounded=4 | checkpoint=1
+swap_2 | target=hdExecutive | active_bodies=1 | mass=1350.0 | wheelcolliders=4 | wheel_visuals=4 | speed_kph=59.1 | grounded=4 | checkpoint=1
+mass_before=1350.0
+mass_after=1350.0
+mass_unchanged=True
+wheelcolliders_before=4
+wheelcolliders_after=4
+wheelvisuals_before=4
+wheelvisuals_after=4
+speed_before_kph=20.7
+speed_after_kph=59.1
+distance_travelled_during_swaps_m=54.1
+checkpoint_before=1
+checkpoint_after=1
+verdict_kept_driving=True
+verdict_physics_intact=True

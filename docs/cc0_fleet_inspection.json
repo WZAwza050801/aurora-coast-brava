@@ -1,0 +1,299 @@
+{
+  "source": "https://3dassets.dev/packs/road-car-showroom-lineup (CC0 1.0)",
+  "cars": {
+    "MidEngineSupercar": {
+      "fbx": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\Assets\\Vehicles\\Fleet\\MidEngineSupercar.fbx",
+      "wheels": {
+        "wheel_fr": [
+          0.8448,
+          -1.2971,
+          0.3775
+        ],
+        "wheel_fl": [
+          -0.8448,
+          -1.2971,
+          0.3775
+        ],
+        "wheel_rr": [
+          0.8448,
+          1.2311,
+          0.3775
+        ],
+        "wheel_rl": [
+          -0.8448,
+          1.2311,
+          0.3775
+        ]
+      },
+      "bounds": {
+        "min": [
+          -1.0706568956375122,
+          -2.265000104904175,
+          0.0
+        ],
+        "max": [
+          1.0706568956375122,
+          2.265000104904175,
+          1.1616458892822266
+        ]
+      },
+      "scale": 0.94336,
+      "meshes": 25,
+      "polygons": 7632,
+      "label": "mid-engine supercar",
+      "source_id": "15113"
+    },
+    "SportsCoupe90s": {
+      "fbx": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\Assets\\Vehicles\\Fleet\\SportsCoupe90s.fbx",
+      "wheels": {
+        "wheel_fr": [
+          0.7731,
+          -1.2788,
+          0.3648
+        ],
+        "wheel_fl": [
+          -0.7731,
+          -1.2788,
+          0.3648
+        ],
+        "wheel_rr": [
+          0.7731,
+          1.2254,
+          0.3648
+        ],
+        "wheel_rl": [
+          -0.7731,
+          1.2254,
+          0.3648
+        ]
+      },
+      "bounds": {
+        "min": [
+          -0.9947852492332458,
+          -2.265000104904175,
+          0.0
+        ],
+        "max": [
+          0.9947852492332458,
+          2.265000104904175,
+          1.3253366947174072
+        ]
+      },
+      "scale": 0.97064,
+      "meshes": 25,
+      "polygons": 7572,
+      "label": "1990s sports coupe",
+      "source_id": "15120"
+    },
+    "MuscleCoupe70s": {
+      "fbx": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\Assets\\Vehicles\\Fleet\\MuscleCoupe70s.fbx",
+      "wheels": {
+        "wheel_fr": [
+          0.7496,
+          -1.2822,
+          0.3614
+        ],
+        "wheel_fl": [
+          -0.7496,
+          -1.2822,
+          0.3614
+        ],
+        "wheel_rr": [
+          0.7496,
+          1.234,
+          0.3614
+        ],
+        "wheel_rl": [
+          -0.7496,
+          1.234,
+          0.3614
+        ]
+      },
+      "bounds": {
+        "min": [
+          -0.9555083513259888,
+          -2.265000104904175,
+          0.0
+        ],
+        "max": [
+          0.9555083513259888,
+          2.265000104904175,
+          1.2548978328704834
+        ]
+      },
+      "scale": 0.87672,
+      "meshes": 25,
+      "polygons": 7756,
+      "label": "1970s muscle coupe",
+      "source_id": "15118"
+    },
+    "Roadster60s": {
+      "fbx": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\Assets\\Vehicles\\Fleet\\Roadster60s.fbx",
+      "wheels": {
+        "wheel_fr": [
+          0.7778,
+          -1.3073,
+          0.3822
+        ],
+        "wheel_fl": [
+          -0.7778,
+          -1.3073,
+          0.3822
+        ],
+        "wheel_rr": [
+          0.7778,
+          1.2475,
+          0.3822
+        ],
+        "wheel_rl": [
+          -0.7778,
+          1.2475,
+          0.3822
+        ]
+      },
+      "bounds": {
+        "min": [
+          -1.0164848566055298,
+          -2.265000104904175,
+          -1.4901161193847656e-08
+        ],
+        "max": [
+          1.0164848566055298,
+          2.2649996280670166,
+          1.3667341470718384
+        ]
+      },
+      "scale": 1.08711,
+      "meshes": 25,
+      "polygons": 9948,
+      "label": "1960s open roadster",
+      "source_id": "15116"
+    },
+    "Roadster": {
+      "fbx": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\Assets\\Vehicles\\Fleet\\Roadster.fbx",
+      "wheels": {
+        "wheel_fr": [
+          0.8703,
+          -1.3471,
+          0.3931
+        ],
+        "wheel_fl": [
+          -0.8703,
+          -1.3471,
+          0.3931
+        ],
+        "wheel_rr": [
+          0.8703,
+          1.2689,
+          0.3931
+        ],
+        "wheel_rl": [
+          -0.8703,
+          1.2689,
+          0.3931
+        ]
+      },
+      "bounds": {
+        "min": [
+          -1.12349534034729,
+          -2.2649998664855957,
+          2.9802322387695312e-08
+        ],
+        "max": [
+          1.12349534034729,
+          2.2649998664855957,
+          1.4503428936004639
+        ]
+      },
+      "scale": 1.11797,
+      "meshes": 25,
+      "polygons": 8428,
+      "label": "two-seat roadster",
+      "source_id": "15112"
+    },
+    "Coupe": {
+      "fbx": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\Assets\\Vehicles\\Fleet\\Coupe.fbx",
+      "wheels": {
+        "wheel_fr": [
+          0.7979,
+          -1.2965,
+          0.3699
+        ],
+        "wheel_fl": [
+          -0.7979,
+          -1.2965,
+          0.3699
+        ],
+        "wheel_rr": [
+          0.7979,
+          1.2297,
+          0.3699
+        ],
+        "wheel_rl": [
+          -0.7979,
+          1.2297,
+          0.3699
+        ]
+      },
+      "bounds": {
+        "min": [
+          -1.0198609828948975,
+          -2.2649998664855957,
+          -7.450580596923828e-09
+        ],
+        "max": [
+          1.0198609828948975,
+          2.2649998664855957,
+          1.3506112098693848
+        ]
+      },
+      "scale": 0.95328,
+      "meshes": 25,
+      "polygons": 7548,
+      "label": "modern coupe",
+      "source_id": "15108"
+    },
+    "Convertible": {
+      "fbx": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\Assets\\Vehicles\\Fleet\\Convertible.fbx",
+      "wheels": {
+        "wheel_fr": [
+          0.7975,
+          -1.3389,
+          0.366
+        ],
+        "wheel_fl": [
+          -0.7975,
+          -1.3389,
+          0.366
+        ],
+        "wheel_rr": [
+          0.7975,
+          1.2708,
+          0.366
+        ],
+        "wheel_rl": [
+          -0.7975,
+          1.2708,
+          0.366
+        ]
+      },
+      "bounds": {
+        "min": [
+          -1.0223259925842285,
+          -2.2649998664855957,
+          -7.450580596923828e-09
+        ],
+        "max": [
+          1.0223259925842285,
+          2.2649998664855957,
+          1.3745681047439575
+        ]
+      },
+      "scale": 0.97377,
+      "meshes": 25,
+      "polygons": 8876,
+      "label": "convertible",
+      "source_id": "15107"
+    }
+  }
+}

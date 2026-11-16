@@ -1,0 +1,10 @@
+device=Intel(R) Iris(R) Xe Graphics
+version=Direct3D 11.0 [level 11.1]
+resolution=1280x720
+speed_kph=81.62
+grounded_wheels=4
+nitro=5.17
+position=(-95.93, -0.14, 237.23)
+rotation=(0.22, 286.99, 359.75)
+average_fps=59.69
+minimum_fps=3.00

@@ -1,0 +1,4 @@
+{
+  "action": "execute",
+  "code": "var sb = new System.Text.StringBuilder();\nvar garage = UnityEngine.Object.FindObjectOfType<VehicleGarage>();\nif (garage == null) return \"no garage\";\nfor (int i = 0; i < garage.variants.Length; i++)\n{\n    var v = garage.variants[i];\n    if (v.root == null) continue;\n    if (i != 0 && i != garage.variants.Length - 1) continue;\n    v.root.SetActive(true);\n    var names = new System.Collections.Generic.List<string>();\n    foreach (Renderer r in v.root.GetComponentsInChildren<Renderer>()) names.Add(r.gameObject.name);\n    sb.AppendLine(i + \" \" + garage.specIds[i] + \" renderers=\" + names.Count + \" names=\" + string.Join(\", \", names.ToArray()));\n    v.root.SetActive(i == garage.selected);\n}\nDebug.Log(\"PROBE5 \" + sb.ToString().Replace(\"\\r\", \"\").Replace(\"\\n\", \" || \"));\nreturn sb.ToString();"
+}

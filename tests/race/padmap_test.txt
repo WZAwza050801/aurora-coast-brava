@@ -1,0 +1,35 @@
+PASS stick_zero | raw=0 -> 0
+PASS stick_inside_deadzone | raw=0.09 -> 0
+PASS stick_just_outside | raw=0.11 -> 0.011
+PASS stick_full_positive | raw=1 -> 1
+PASS stick_full_negative | raw=-1 -> -1
+PASS stick_half | raw=0.5 -> 0.444
+PASS stick_monotonic | 0.9 > 0.4
+PASS handbrake_space | SPACE
+PASS handbrake_pad_a | PAD A
+PASS handbrake_none | none
+PASS nitro_shift | SHIFT
+PASS nitro_shift_right | R SHIFT
+PASS nitro_pad_x | PAD X
+PASS nitro_pad_rb | PAD RB
+PASS nitro_none | none
+PASS reset_key_r | R
+PASS reset_pad_b | PAD B
+PASS pause_escape | ESC
+PASS pause_pad_start | PAD START
+PASS pause_pad_start_alt | PAD START ALT
+PASS confirm_enter | ENTER
+PASS confirm_keypad | KEYPAD ENTER
+PASS confirm_pad_a | PAD A
+PASS prev_car_q | Q
+PASS prev_car_bracket | [
+PASS prev_car_pad_lb | PAD LB
+PASS next_car_e | E
+PASS next_car_bracket | ]
+PASS next_car_pad_rb | PAD RB
+devices=NONE
+stick_deadzone=0.10
+cases_passed=29
+cases_failed=0
+verdict_all_passed=True
+note=physical stick feel and real button latency still need a human pass on real hardware

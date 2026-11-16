@@ -1,0 +1,26 @@
+{
+  "island_tree_01": {
+    "source": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\assets\\models\\island_tree_01\\island_tree_01.gltf",
+    "output": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\Assets\\Vegetation\\IslandTree.fbx",
+    "source_polygons": 1599403,
+    "optimized_polygons": 15994,
+    "decimate_ratio": 0.01,
+    "bytes": 6800652
+  },
+  "coast_land_rocks_02": {
+    "source": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\assets\\models\\coast_land_rocks_02\\coast_land_rocks_02.gltf",
+    "output": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\Assets\\Vegetation\\CoastRocks.fbx",
+    "source_polygons": 1291146,
+    "optimized_polygons": 25821,
+    "decimate_ratio": 0.02,
+    "bytes": 3096300
+  },
+  "shrub_01": {
+    "source": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\assets\\models\\shrub_01\\shrub_01.gltf",
+    "output": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\Assets\\Vegetation\\Shrub.fbx",
+    "source_polygons": 156012,
+    "optimized_polygons": 12480,
+    "decimate_ratio": 0.08,
+    "bytes": 1925612
+  }
+}

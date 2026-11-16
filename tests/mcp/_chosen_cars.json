@@ -1,0 +1,172 @@
+[
+ {
+  "id": "32495",
+  "slug": "car-park-and-road-vehicle-fleet-sports-car-900de487",
+  "title": "Mid-engine sports car (Car Park and Road Vehicle Fleet)",
+  "triangles": 48688,
+  "meshes": 21,
+  "materials": 8,
+  "bounds": [
+   2.144,
+   1.33,
+   4.622
+  ],
+  "license": "CC0 1.0 Universal",
+  "contributor": "3D Assets (@3dassets): https://3dassets.dev/u/3dassets",
+  "animations": "door-open, door-close, bonnet-open, bonnet-close, boot-open, boot-close, steer, wheel-roll",
+  "cdn": "https://cdn.3dassets.dev/assets/32495/v1/model.glb"
+ },
+ {
+  "id": "32515",
+  "slug": "car-park-and-road-vehicle-fleet-classic-coupe-a7bcc406",
+  "title": "Classic muscle coupe (Car Park and Road Vehicle Fleet)",
+  "triangles": 30148,
+  "meshes": 21,
+  "materials": 8,
+  "bounds": [
+   2.077,
+   1.339,
+   5.042
+  ],
+  "license": "CC0 1.0 Universal",
+  "contributor": "3D Assets (@3dassets): https://3dassets.dev/u/3dassets",
+  "animations": "door-open, door-close, bonnet-open, bonnet-close, boot-open, boot-close, steer, wheel-roll",
+  "cdn": "https://cdn.3dassets.dev/assets/32515/v1/model.glb"
+ },
+ {
+  "id": "32488",
+  "slug": "car-park-and-road-vehicle-fleet-coupe-ea7addee",
+  "title": "Grand touring coupe (Car Park and Road Vehicle Fleet)",
+  "triangles": 30124,
+  "meshes": 21,
+  "materials": 8,
+  "bounds": [
+   2.058,
+   1.33,
+   4.702
+  ],
+  "license": "CC0 1.0 Universal",
+  "contributor": "3D Assets (@3dassets): https://3dassets.dev/u/3dassets",
+  "animations": "door-open, door-close, bonnet-open, bonnet-close, boot-open, boot-close, steer, wheel-roll",
+  "cdn": "https://cdn.3dassets.dev/assets/32488/v1/model.glb"
+ },
+ {
+  "id": "32514",
+  "slug": "car-park-and-road-vehicle-fleet-sports-saloon-2d5d5fdd",
+  "title": "Sports saloon (Car Park and Road Vehicle Fleet)",
+  "triangles": 31484,
+  "meshes": 23,
+  "materials": 8,
+  "bounds": [
+   2.058,
+   1.389,
+   4.882
+  ],
+  "license": "CC0 1.0 Universal",
+  "contributor": "3D Assets (@3dassets): https://3dassets.dev/u/3dassets",
+  "animations": "door-open, door-close, bonnet-open, bonnet-close, boot-open, boot-close, steer, wheel-roll",
+  "cdn": "https://cdn.3dassets.dev/assets/32514/v1/model.glb"
+ },
+ {
+  "id": "32499",
+  "slug": "car-park-and-road-vehicle-fleet-classic-saloon-b5f8c353",
+  "title": "Classic saloon (Car Park and Road Vehicle Fleet)",
+  "triangles": 33908,
+  "meshes": 23,
+  "materials": 8,
+  "bounds": [
+   1.837,
+   1.484,
+   4.542
+  ],
+  "license": "CC0 1.0 Universal",
+  "contributor": "3D Assets (@3dassets): https://3dassets.dev/u/3dassets",
+  "animations": "door-open, door-close, bonnet-open, bonnet-close, boot-open, boot-close, steer, wheel-roll",
+  "cdn": "https://cdn.3dassets.dev/assets/32499/v1/model.glb"
+ },
+ {
+  "id": "32494",
+  "slug": "car-park-and-road-vehicle-fleet-hot-hatch-6b2d198f",
+  "title": "Hot hatch (Car Park and Road Vehicle Fleet)",
+  "triangles": 31516,
+  "meshes": 22,
+  "materials": 8,
+  "bounds": [
+   1.981,
+   1.444,
+   4.042
+  ],
+  "license": "CC0 1.0 Universal",
+  "contributor": "3D Assets (@3dassets): https://3dassets.dev/u/3dassets",
+  "animations": "door-open, door-close, bonnet-open, bonnet-close, boot-open, boot-close, steer, wheel-roll",
+  "cdn": "https://cdn.3dassets.dev/assets/32494/v1/model.glb"
+ },
+ {
+  "id": "32493",
+  "slug": "car-park-and-road-vehicle-fleet-three-door-hatchback-87fedf50",
+  "title": "Three-door hatchback (Car Park and Road Vehicle Fleet)",
+  "triangles": 30608,
+  "meshes": 22,
+  "materials": 8,
+  "bounds": [
+   1.914,
+   1.434,
+   3.992
+  ],
+  "license": "CC0 1.0 Universal",
+  "contributor": "3D Assets (@3dassets): https://3dassets.dev/u/3dassets",
+  "animations": "door-open, door-close, bonnet-open, bonnet-close, boot-open, boot-close, steer, wheel-roll",
+  "cdn": "https://cdn.3dassets.dev/assets/32493/v1/model.glb"
+ },
+ {
+  "id": "32492",
+  "slug": "car-park-and-road-vehicle-fleet-executive-saloon-4895d629",
+  "title": "Executive saloon (Car Park and Road Vehicle Fleet)",
+  "triangles": 31180,
+  "meshes": 23,
+  "materials": 8,
+  "bounds": [
+   2.077,
+   1.423,
+   5.192
+  ],
+  "license": "CC0 1.0 Universal",
+  "contributor": "3D Assets (@3dassets): https://3dassets.dev/u/3dassets",
+  "animations": "door-open, door-close, bonnet-open, bonnet-close, boot-open, boot-close, steer, wheel-roll",
+  "cdn": "https://cdn.3dassets.dev/assets/32492/v1/model.glb"
+ },
+ {
+  "id": "32487",
+  "slug": "car-park-and-road-vehicle-fleet-city-car-033e3215",
+  "title": "City car (Car Park and Road Vehicle Fleet)",
+  "triangles": 31000,
+  "meshes": 22,
+  "materials": 8,
+  "bounds": [
+   1.828,
+   1.533,
+   3.592
+  ],
+  "license": "CC0 1.0 Universal",
+  "contributor": "3D Assets (@3dassets): https://3dassets.dev/u/3dassets",
+  "animations": "door-open, door-close, bonnet-open, bonnet-close, boot-open, boot-close, steer, wheel-roll",
+  "cdn": "https://cdn.3dassets.dev/assets/32487/v1/model.glb"
+ },
+ {
+  "id": "32496",
+  "slug": "car-park-and-road-vehicle-fleet-electric-hatchback-748be698",
+  "title": "Electric hatchback (Car Park and Road Vehicle Fleet)",
+  "triangles": 30896,
+  "meshes": 26,
+  "materials": 9,
+  "bounds": [
+   1.981,
+   1.583,
+   4.322
+  ],
+  "license": "CC0 1.0 Universal",
+  "contributor": "3D Assets (@3dassets): https://3dassets.dev/u/3dassets",
+  "animations": "door-open, door-close, bonnet-open, bonnet-close, boot-open, boot-close, flap-open, flap-close, steer, wheel-roll",
+  "cdn": "https://cdn.3dassets.dev/assets/32496/v1/model.glb"
+ }
+]

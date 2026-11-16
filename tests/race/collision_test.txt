@@ -1,0 +1,16 @@
+collision_check_utc=2026-11-15T22:28:57.0093838Z
+device=Intel(R) Iris(R) Xe Graphics
+resolution=1280x720
+player_speed_before_kph=79.2
+player_speed_after_kph=0.2
+collision_count_delta=1
+max_impact_strength=0.898
+max_camera_jitter_m=0.0438
+rival_lateral_before_m=1.71
+rival_lateral_after_m=1.76
+rival_lateral_push_m=0.05
+rival_position_delta=4.78
+verdict_collision_registered=True
+verdict_camera_jitter_triggered=True
+verdict_rival_pushed=True
+verdict_speed_lost=True

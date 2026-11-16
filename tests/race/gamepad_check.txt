@@ -1,0 +1,7 @@
+gamepad_check_utc=2026-11-15T22:29:38.6662789Z
+devices=NONE
+axis_vertical=0
+axis_horizontal=0
+mapping=Left stick = Horizontal/Vertical (joystick axes 0/1, dead 0.19, Y inverted)
+buttons=A/0 handbrake+confirm, B/1 reset, X/2 nitro, RB/5 nitro, Start/7 pause+start
+code_deadzone=0.10 (ArcadeCarController.ApplyDeadzone)

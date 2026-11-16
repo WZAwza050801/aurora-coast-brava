@@ -1,0 +1,5 @@
+result=Succeeded
+errors=0
+warnings=0
+size=223906099
+output=D:/ai_for_games/赛车游戏复刻/Alsphalt8/build/Windows/AuroraCoast.exe

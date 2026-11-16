@@ -1,0 +1,99 @@
+# ---------------------------------------------------------------------------
+# Unity
+# ---------------------------------------------------------------------------
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Ll]ogs/
+UserSettings/
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+crashlytics-build.properties
+build/
+downloads/
+.upm-cache/
+engine_probe/
+
+# 备份目录（历史快照，体积巨大）
+*.full-backup-*/
+Library.full-backup-*/
+Temp.full-backup-*/
+
+# ---------------------------------------------------------------------------
+# 构建产物：场景与生成网格都是 AuroraProjectBuilder 的输出，不是源
+# ---------------------------------------------------------------------------
+# BuildCompleteRace() 从空场景重建整条赛道并覆盖 Assets/Scenes/CostaBrava.unity，
+# BuildMinimalAndWindows() 同理覆盖 DrivingLab.unity。提交它们会让每次构建
+# 产生 5 MB 无意义 diff，而且场景里引用的 GUID 指向本机才存在的生成网格。
+# 首次使用请先跑一次 tools/run_headless_build.py 把场景生成出来。
+Assets/Scenes/*.unity
+# .unity.meta 保留：GUID 稳定，Unity 重建场景时会复用同一份 meta。
+!Assets/Scenes/*.unity.meta
+
+# ConfigureAssets() 每次构建都会清空重建，这里是它的输出目录。
+Assets/GeneratedMeshes/
+
+# ---------------------------------------------------------------------------
+# 原始素材（可由 tools/fetch_assets.py 重建）
+# ---------------------------------------------------------------------------
+# Poly Haven 原始下载（98 MB）：场景用的是 Assets/Vegetation/*.fbx 的减面 LOD，
+# 原始文件只作为下载缓存。URL + md5 见 tools/asset_manifest.json。
+Assets/models/
+
+# McGuire CC0 档案的 BMW 原始 OBJ（30 MB）：由 tools/prepare_bmw.py 转换成 FBX。
+Assets/vehicles/bmw_cc0/
+
+# Blender 中间产物（43 MB）。它们放在 Assets/ 下会被 Unity 当成 3D 模型导入，
+# 白白拖慢构建并撑大 Library。生成脚本见 tools/prepare_vehicle.py、prepare_bmw.py。
+Assets/vehicles/*.blend
+Assets/vehicles/*.blend1
+Assets/vehicles/*.blend.meta
+Assets/vehicles/*.blend1.meta
+
+# Ferrari 的 GLB 中间产物（12 MB）。最终入包的是 aurora_gt.fbx；
+# 上游原始件 assets/vehicles/ferrari_source.glb 保留在库内以固化 CC BY 溯源链。
+Assets/vehicles/aurora_gt.glb
+Assets/vehicles/aurora_gt.glb.meta
+
+# 备份
+assets/track_layout.json.bak
+assets/track_layout.json.bak.meta
+
+# ---------------------------------------------------------------------------
+# 测试证据：报告与截图保留，日志丢弃
+# ---------------------------------------------------------------------------
+tests/**/*.log
+tests/mcp/*.out
+tests/mcp/*.err
+tests/**/__pycache__/
+
+# ---------------------------------------------------------------------------
+# 本地工作台
+# ---------------------------------------------------------------------------
+# Python 虚拟环境与第三方 MCP 服务端（可由 setup 脚本重建）。
+.workbuddy/venvs/
+.workbuddy/vendor/
+.workbuddy/**/__pycache__/
+
+# ---------------------------------------------------------------------------
+# 系统与编辑器
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/

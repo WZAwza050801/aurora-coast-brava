@@ -1,0 +1,22 @@
+garage_check_utc=2026-11-15T22:27:48.1728188Z
+device=Intel(R) Iris(R) Xe Graphics
+resolution=1280x720
+variants=12
+missing_script_components=0
+verdict_no_broken_script_refs=True
+0 | ferrari458 | FERRARI 458 ITALIA | vicent091036 - CC BY 4.0 (three.js examples) | active_bodies=1 | visible_renderers=58 | wheel_visuals=4 | wing_kit=False | roof_m=1.24 | screenshot=garage_00_ferrari458.png
+1 | hdSportsCar | HD MID-ENGINE SPORTS CAR | 3DAssets.dev Car Park & Road Vehicle Fleet - CC0 1.0 | active_bodies=1 | visible_renderers=34 | wheel_visuals=4 | wing_kit=True | roof_m=1.18 | screenshot=garage_01_hdSportsCar.png
+2 | hdMuscleCoupe | HD CLASSIC MUSCLE COUPE | 3DAssets.dev Car Park & Road Vehicle Fleet - CC0 1.0 | active_bodies=1 | visible_renderers=34 | wheel_visuals=4 | wing_kit=True | roof_m=1.17 | screenshot=garage_02_hdMuscleCoupe.png
+3 | hdTouringCoupe | HD GRAND TOURING COUPE | 3DAssets.dev Car Park & Road Vehicle Fleet - CC0 1.0 | active_bodies=1 | visible_renderers=34 | wheel_visuals=4 | wing_kit=True | roof_m=1.25 | screenshot=garage_03_hdTouringCoupe.png
+4 | hdSportsSaloon | HD SPORTS SALOON | 3DAssets.dev Car Park & Road Vehicle Fleet - CC0 1.0 | active_bodies=1 | visible_renderers=36 | wheel_visuals=4 | wing_kit=True | roof_m=1.29 | screenshot=garage_04_hdSportsSaloon.png
+5 | hdClassicSaloon | HD CLASSIC SALOON | 3DAssets.dev Car Park & Road Vehicle Fleet - CC0 1.0 | active_bodies=1 | visible_renderers=30 | wheel_visuals=4 | wing_kit=False | roof_m=1.48 | screenshot=garage_05_hdClassicSaloon.png
+6 | hdHotHatch | HD HOT HATCH | 3DAssets.dev Car Park & Road Vehicle Fleet - CC0 1.0 | active_bodies=1 | visible_renderers=29 | wheel_visuals=4 | wing_kit=False | roof_m=1.62 | screenshot=garage_06_hdHotHatch.png
+7 | hdThreeDoor | HD THREE-DOOR HATCHBACK | 3DAssets.dev Car Park & Road Vehicle Fleet - CC0 1.0 | active_bodies=1 | visible_renderers=29 | wheel_visuals=4 | wing_kit=False | roof_m=1.63 | screenshot=garage_07_hdThreeDoor.png
+8 | hdExecutive | HD EXECUTIVE SALOON | 3DAssets.dev Car Park & Road Vehicle Fleet - CC0 1.0 | active_bodies=1 | visible_renderers=30 | wheel_visuals=4 | wing_kit=False | roof_m=1.24 | screenshot=garage_08_hdExecutive.png
+9 | hdCityCar | HD CITY CAR | 3DAssets.dev Car Park & Road Vehicle Fleet - CC0 1.0 | active_bodies=1 | visible_renderers=29 | wheel_visuals=4 | wing_kit=False | roof_m=1.93 | screenshot=garage_09_hdCityCar.png
+10 | hdElectricHatch | HD ELECTRIC HATCHBACK | 3DAssets.dev Car Park & Road Vehicle Fleet - CC0 1.0 | active_bodies=1 | visible_renderers=33 | wheel_visuals=4 | wing_kit=False | roof_m=1.66 | screenshot=garage_10_hdElectricHatch.png
+11 | auroraGt | AURORA GT (BMW) | Mike Pan / Morgan McGuire - CC0 | active_bodies=1 | visible_renderers=66 | wheel_visuals=4 | wing_kit=True | roof_m=1.53 | screenshot=garage_11_auroraGt.png
+physics_wheelcolliders=4 (unchanged for every body)
+physics_mass_kg=1350 (unchanged for every body)
+bodies_switching_ok=12/12
+verdict_garage_usable=True

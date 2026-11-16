@@ -1,0 +1,1173 @@
+{
+  "source": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\assets\\vehicles\\ferrari_source.glb",
+  "objects": [
+    {
+      "name": "RootNode",
+      "type": "EMPTY",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parent": null
+    },
+    {
+      "name": "main",
+      "type": "EMPTY",
+      "location": [
+        1.4877318790240679e-06,
+        -2.670288040462765e-06,
+        0.6761807203292847
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parent": "RootNode"
+    },
+    {
+      "name": "trim",
+      "type": "MESH",
+      "location": [
+        -0.3791326582431793,
+        0.01592971757054329,
+        -0.004387855529785156
+      ],
+      "dimensions": [
+        1.4872605800628662,
+        0.8744907379150391,
+        1.444412112236023
+      ],
+      "parent": "main",
+      "vertices": 3478,
+      "polygons": 3254,
+      "materials": [
+        "Leather_red"
+      ]
+    },
+    {
+      "name": "lights_red",
+      "type": "MESH",
+      "location": [
+        0.9131896495819092,
+        0.006319885142147541,
+        -0.003979797475039959
+      ],
+      "dimensions": [
+        2.5025782585144043,
+        0.5783288478851318,
+        1.7088655233383179
+      ],
+      "parent": "main",
+      "vertices": 15312,
+      "polygons": 12020,
+      "materials": [
+        "Taillight_Glass"
+      ]
+    },
+    {
+      "name": "plastic_gray",
+      "type": "MESH",
+      "location": [
+        0.10842832922935486,
+        0.028705596923828125,
+        -0.0009726047283038497
+      ],
+      "dimensions": [
+        4.306856155395508,
+        1.0454963445663452,
+        1.6698497533798218
+      ],
+      "parent": "main",
+      "vertices": 13320,
+      "polygons": 13920,
+      "materials": [
+        "plastic_gray"
+      ]
+    },
+    {
+      "name": "metal",
+      "type": "MESH",
+      "location": [
+        0.2176593542098999,
+        0.0019895934965461493,
+        -0.004881267435848713
+      ],
+      "dimensions": [
+        4.03350830078125,
+        1.0847607851028442,
+        1.8987008333206177
+      ],
+      "parent": "main",
+      "vertices": 6122,
+      "polygons": 5344,
+      "materials": [
+        "metal_gray"
+      ]
+    },
+    {
+      "name": "lights",
+      "type": "MESH",
+      "location": [
+        -1.8453952074050903,
+        0.0674612820148468,
+        -0.0019848633091896772
+      ],
+      "dimensions": [
+        0.020783424377441406,
+        0.06564098596572876,
+        1.4187285900115967
+      ],
+      "parent": "main",
+      "vertices": 404,
+      "polygons": 640,
+      "materials": [
+        "Projector_Glass"
+      ]
+    },
+    {
+      "name": "leds",
+      "type": "MESH",
+      "location": [
+        -1.265076756477356,
+        -0.022139128297567368,
+        -0.0009728240547701716
+      ],
+      "dimensions": [
+        1.0075440406799316,
+        0.15172509849071503,
+        1.9254162311553955
+      ],
+      "parent": "main",
+      "vertices": 1816,
+      "polygons": 1812,
+      "materials": [
+        "Turn_Signal_LED"
+      ]
+    },
+    {
+      "name": "leather",
+      "type": "MESH",
+      "location": [
+        -0.3477288484573364,
+        0.030955351889133453,
+        -0.0020252608228474855
+      ],
+      "dimensions": [
+        1.5505313873291016,
+        0.9044684767723083,
+        1.6115179061889648
+      ],
+      "parent": "main",
+      "vertices": 20434,
+      "polygons": 21960,
+      "materials": [
+        "Leather"
+      ]
+    },
+    {
+      "name": "interior_light",
+      "type": "MESH",
+      "location": [
+        0.004693602677434683,
+        0.0035023498348891735,
+        -0.0038845448289066553
+      ],
+      "dimensions": [
+        4.481582164764404,
+        1.1125309467315674,
+        1.795860767364502
+      ],
+      "parent": "main",
+      "vertices": 50748,
+      "polygons": 52534,
+      "materials": [
+        "Interior_dark"
+      ]
+    },
+    {
+      "name": "grills",
+      "type": "MESH",
+      "location": [
+        0.048359520733356476,
+        0.032990265637636185,
+        -0.006835598964244127
+      ],
+      "dimensions": [
+        4.243544101715088,
+        0.6548055410385132,
+        1.785951018333435
+      ],
+      "parent": "main",
+      "vertices": 1348,
+      "polygons": 1568,
+      "materials": [
+        "Tires"
+      ]
+    },
+    {
+      "name": "glass",
+      "type": "MESH",
+      "location": [
+        0.0011764522641897202,
+        -0.1936042755842209,
+        -0.0019110107095912099
+      ],
+      "dimensions": [
+        4.098396301269531,
+        0.6539222598075867,
+        1.6820862293243408
+      ],
+      "parent": "main",
+      "vertices": 7954,
+      "polygons": 8952,
+      "materials": [
+        "Glass_Gray"
+      ]
+    },
+    {
+      "name": "chrome",
+      "type": "MESH",
+      "location": [
+        0.03319404274225235,
+        -0.006728820502758026,
+        3.33786012163273e-08
+      ],
+      "dimensions": [
+        4.467203140258789,
+        0.8730992078781128,
+        2.2353739738464355
+      ],
+      "parent": "main",
+      "vertices": 26246,
+      "polygons": 18568,
+      "materials": [
+        "metal_chrome"
+      ]
+    },
+    {
+      "name": "carpet",
+      "type": "MESH",
+      "location": [
+        -0.28055083751678467,
+        0.234556645154953,
+        -0.004000129643827677
+      ],
+      "dimensions": [
+        1.7179279327392578,
+        0.4553038775920868,
+        1.5269771814346313
+      ],
+      "parent": "main",
+      "vertices": 631,
+      "polygons": 524,
+      "materials": [
+        "Carpet"
+      ]
+    },
+    {
+      "name": "carbon_fibre_trim",
+      "type": "MESH",
+      "location": [
+        -0.17742615938186646,
+        0.040187492966651917,
+        -0.0020886228885501623
+      ],
+      "dimensions": [
+        1.0789157152175903,
+        0.5871649980545044,
+        1.5616110563278198
+      ],
+      "parent": "main",
+      "vertices": 7916,
+      "polygons": 9756,
+      "materials": [
+        "Carbon_Fiber"
+      ]
+    },
+    {
+      "name": "carbon fibre",
+      "type": "MESH",
+      "location": [
+        -0.43787240982055664,
+        -0.11790679395198822,
+        -0.3459782004356384
+      ],
+      "dimensions": [
+        0.06271065771579742,
+        0.17738473415374756,
+        0.36303484439849854
+      ],
+      "parent": "main",
+      "vertices": 1208,
+      "polygons": 1148,
+      "materials": [
+        "Carbon_Fiber"
+      ]
+    },
+    {
+      "name": "brakes",
+      "type": "MESH",
+      "location": [
+        1.9894591569900513,
+        -0.19985365867614746,
+        -0.0039781187660992146
+      ],
+      "dimensions": [
+        0.32257190346717834,
+        0.1696813702583313,
+        1.7085986137390137
+      ],
+      "parent": "main",
+      "vertices": 19218,
+      "polygons": 14172,
+      "materials": [
+        "Taillight_Glass"
+      ]
+    },
+    {
+      "name": "interior_dark",
+      "type": "MESH",
+      "location": [
+        0.0033574672415852547,
+        -0.010578918270766735,
+        3.755078026301817e-08
+      ],
+      "dimensions": [
+        4.485176086425781,
+        1.0983657836914062,
+        2.2380707263946533
+      ],
+      "parent": "main",
+      "vertices": 20565,
+      "polygons": 19939,
+      "materials": [
+        "Interior_light"
+      ]
+    },
+    {
+      "name": "body",
+      "type": "MESH",
+      "location": [
+        -0.005391615908592939,
+        -0.021991576999425888,
+        5.9604643443123e-10
+      ],
+      "dimensions": [
+        4.522807598114014,
+        1.0755574703216553,
+        2.257124662399292
+      ],
+      "parent": "main",
+      "vertices": 51404,
+      "polygons": 80566,
+      "materials": [
+        "Body_Color"
+      ]
+    },
+    {
+      "name": "blue",
+      "type": "MESH",
+      "location": [
+        -0.34961891174316406,
+        -0.0676281750202179,
+        -0.43509572744369507
+      ],
+      "dimensions": [
+        0.010646047070622444,
+        0.020187683403491974,
+        0.021311607211828232
+      ],
+      "parent": "main",
+      "vertices": 72,
+      "polygons": 72,
+      "materials": [
+        "_0098_DodgerBlue"
+      ]
+    },
+    {
+      "name": "wipers",
+      "type": "MESH",
+      "location": [
+        -1.088884711265564,
+        -0.10959136486053467,
+        0.006480865180492401
+      ],
+      "dimensions": [
+        0.39642322063446045,
+        0.09656774997711182,
+        1.3305883407592773
+      ],
+      "parent": "main",
+      "vertices": 1896,
+      "polygons": 1418,
+      "materials": [
+        "Tires"
+      ]
+    },
+    {
+      "name": "yellow_trim",
+      "type": "MESH",
+      "location": [
+        -1.3971319198608398,
+        -0.046827543526887894,
+        -0.002851104596629739
+      ],
+      "dimensions": [
+        1.4471536874771118,
+        0.29891499876976013,
+        1.8856850862503052
+      ],
+      "parent": "main",
+      "vertices": 228,
+      "polygons": 218,
+      "materials": [
+        "Ferrari_Yellow"
+      ]
+    },
+    {
+      "name": "wheel_rr",
+      "type": "EMPTY",
+      "location": [
+        0.8243894577026367,
+        -1.4963222742080688,
+        0.3580229878425598
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parent": "RootNode"
+    },
+    {
+      "name": "wheel",
+      "type": "MESH",
+      "location": [
+        -5.096435415907763e-05,
+        0.0005233764532022178,
+        7.049560372252017e-05
+      ],
+      "dimensions": [
+        0.28322944045066833,
+        0.564048171043396,
+        0.5642203688621521
+      ],
+      "parent": "wheel_rr",
+      "vertices": 9628,
+      "polygons": 9120,
+      "materials": [
+        "metal_gray"
+      ]
+    },
+    {
+      "name": "tire",
+      "type": "MESH",
+      "location": [
+        -0.005404662806540728,
+        -0.0,
+        3.0517577442878974e-07
+      ],
+      "dimensions": [
+        0.272161602973938,
+        0.7160468697547913,
+        0.7146482467651367
+      ],
+      "parent": "wheel_rr",
+      "vertices": 1000,
+      "polygons": 1200,
+      "materials": [
+        "Tires"
+      ]
+    },
+    {
+      "name": "rim_rr",
+      "type": "MESH",
+      "location": [
+        0.125254824757576,
+        0.0005316162132658064,
+        -1.2359619177004788e-05
+      ],
+      "dimensions": [
+        0.03284642845392227,
+        0.5640014410018921,
+        0.5640702843666077
+      ],
+      "parent": "wheel_rr",
+      "vertices": 3010,
+      "polygons": 3490,
+      "materials": [
+        "metal_gray"
+      ]
+    },
+    {
+      "name": "centre",
+      "type": "MESH",
+      "location": [
+        0.11268455535173416,
+        0.0005233764532022178,
+        -1.6174315533135086e-05
+      ],
+      "dimensions": [
+        0.0,
+        0.07146365195512772,
+        0.0710928738117218
+      ],
+      "parent": "wheel_rr",
+      "vertices": 60,
+      "polygons": 56,
+      "materials": [
+        "Ferrari_Yellow"
+      ]
+    },
+    {
+      "name": "brake",
+      "type": "MESH",
+      "location": [
+        0.008895034901797771,
+        0.000592193566262722,
+        0.0011584472376853228
+      ],
+      "dimensions": [
+        0.03064650110900402,
+        0.4052066504955292,
+        0.40523138642311096
+      ],
+      "parent": "wheel_rr",
+      "vertices": 4120,
+      "polygons": 3672,
+      "materials": [
+        "metal_gray"
+      ]
+    },
+    {
+      "name": "nuts",
+      "type": "MESH",
+      "location": [
+        0.10288993269205093,
+        -0.00643936125561595,
+        6.103515261202119e-06
+      ],
+      "dimensions": [
+        0.02109069935977459,
+        0.14884386956691742,
+        0.15473754703998566
+      ],
+      "parent": "wheel_rr",
+      "vertices": 559,
+      "polygons": 422,
+      "materials": [
+        "Interior_dark"
+      ]
+    },
+    {
+      "name": "wheel_rl",
+      "type": "EMPTY",
+      "location": [
+        -0.8213430643081665,
+        -1.4949945211410522,
+        0.35802358388900757
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parent": "RootNode"
+    },
+    {
+      "name": "tire.001",
+      "type": "MESH",
+      "location": [
+        0.005530395545065403,
+        0.0,
+        -1.5258788721439487e-07
+      ],
+      "dimensions": [
+        0.272161602973938,
+        0.7160468697547913,
+        0.7146482467651367
+      ],
+      "parent": "wheel_rl",
+      "vertices": 1000,
+      "polygons": 1200,
+      "materials": [
+        "Tires"
+      ]
+    },
+    {
+      "name": "brake.001",
+      "type": "MESH",
+      "location": [
+        -0.017500152811408043,
+        0.0005908202729187906,
+        -0.0011802673107013106
+      ],
+      "dimensions": [
+        0.030770152807235718,
+        0.4052063524723053,
+        0.4052310883998871
+      ],
+      "parent": "wheel_rl",
+      "vertices": 4120,
+      "polygons": 3672,
+      "materials": [
+        "metal_gray"
+      ]
+    },
+    {
+      "name": "centre.001",
+      "type": "MESH",
+      "location": [
+        -0.11271392554044724,
+        0.0005232238909229636,
+        -9.429931378690526e-05
+      ],
+      "dimensions": [
+        0.0,
+        0.07146365195512772,
+        0.0710928738117218
+      ],
+      "parent": "wheel_rl",
+      "vertices": 60,
+      "polygons": 56,
+      "materials": [
+        "Ferrari_Yellow"
+      ]
+    },
+    {
+      "name": "wheel.001",
+      "type": "MESH",
+      "location": [
+        5.9661862906068563e-05,
+        0.0005232238909229636,
+        -7.781982276355848e-06
+      ],
+      "dimensions": [
+        0.28322941064834595,
+        0.5640481114387512,
+        0.5642203092575073
+      ],
+      "parent": "wheel_rl",
+      "vertices": 9660,
+      "polygons": 9120,
+      "materials": [
+        "metal_gray"
+      ]
+    },
+    {
+      "name": "rim_rl",
+      "type": "MESH",
+      "location": [
+        -0.12526367604732513,
+        0.0005314635927788913,
+        -0.00015426635218318552
+      ],
+      "dimensions": [
+        0.03284642845392227,
+        0.5640014410018921,
+        0.5640702843666077
+      ],
+      "parent": "wheel_rl",
+      "vertices": 3010,
+      "polygons": 3490,
+      "materials": [
+        "metal_gray"
+      ]
+    },
+    {
+      "name": "nuts.001",
+      "type": "MESH",
+      "location": [
+        -0.10290954262018204,
+        -0.006439437624067068,
+        -7.034301961539313e-05
+      ],
+      "dimensions": [
+        0.02109070122241974,
+        0.1488438844680786,
+        0.15473756194114685
+      ],
+      "parent": "wheel_rl",
+      "vertices": 559,
+      "polygons": 422,
+      "materials": [
+        "Interior_dark"
+      ]
+    },
+    {
+      "name": "wheel_fl",
+      "type": "EMPTY",
+      "location": [
+        -0.8425614237785339,
+        1.155318021774292,
+        0.3580228388309479
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parent": "RootNode"
+    },
+    {
+      "name": "rim_fl",
+      "type": "MESH",
+      "location": [
+        -0.1138666495680809,
+        0.0005316162132658064,
+        0.00014549255138263106
+      ],
+      "dimensions": [
+        0.029851000756025314,
+        0.5640015006065369,
+        0.5640703439712524
+      ],
+      "parent": "wheel_fl",
+      "vertices": 2994,
+      "polygons": 3490,
+      "materials": [
+        "metal_gray"
+      ]
+    },
+    {
+      "name": "brake.002",
+      "type": "MESH",
+      "location": [
+        -0.0020442199893295765,
+        0.0005810546572320163,
+        -0.0014985656598582864
+      ],
+      "dimensions": [
+        0.03258657082915306,
+        0.43120622634887695,
+        0.4312325417995453
+      ],
+      "parent": "wheel_fl",
+      "vertices": 4120,
+      "polygons": 3672,
+      "materials": [
+        "metal_gray"
+      ]
+    },
+    {
+      "name": "centre.002",
+      "type": "MESH",
+      "location": [
+        -0.10246849060058594,
+        0.0005233764532022178,
+        0.00014007567369844764
+      ],
+      "dimensions": [
+        0.0,
+        0.07146365195512772,
+        0.0710928738117218
+      ],
+      "parent": "wheel_fl",
+      "vertices": 60,
+      "polygons": 56,
+      "materials": [
+        "Ferrari_Yellow"
+      ]
+    },
+    {
+      "name": "nuts.002",
+      "type": "MESH",
+      "location": [
+        -0.09356124699115753,
+        -0.00643936125561595,
+        0.0001544952392578125
+      ],
+      "dimensions": [
+        0.019173365086317062,
+        0.1488438844680786,
+        0.15473756194114685
+      ],
+      "parent": "wheel_fl",
+      "vertices": 559,
+      "polygons": 422,
+      "materials": [
+        "Interior_dark"
+      ]
+    },
+    {
+      "name": "wheel.002",
+      "type": "MESH",
+      "location": [
+        4.4937132770428434e-05,
+        0.0005233764532022178,
+        0.00022659300884697586
+      ],
+      "dimensions": [
+        0.2575032114982605,
+        0.564048171043396,
+        0.5642203688621521
+      ],
+      "parent": "wheel_fl",
+      "vertices": 9656,
+      "polygons": 9120,
+      "materials": [
+        "metal_gray"
+      ]
+    },
+    {
+      "name": "tire.002",
+      "type": "MESH",
+      "location": [
+        0.005022811703383923,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.24742354452610016,
+        0.7160466909408569,
+        0.7146480679512024
+      ],
+      "parent": "wheel_fl",
+      "vertices": 1000,
+      "polygons": 1200,
+      "materials": [
+        "Tires"
+      ]
+    },
+    {
+      "name": "wheel_fr",
+      "type": "EMPTY",
+      "location": [
+        0.8286899328231812,
+        1.154458999633789,
+        0.3606549799442291
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parent": "RootNode"
+    },
+    {
+      "name": "brake.003",
+      "type": "MESH",
+      "location": [
+        0.0013321685837581754,
+        0.0006054687546566129,
+        0.00014587401528842747
+      ],
+      "dimensions": [
+        0.03245769441127777,
+        0.43121621012687683,
+        0.4312688708305359
+      ],
+      "parent": "wheel_fr",
+      "vertices": 4120,
+      "polygons": 3672,
+      "materials": [
+        "metal_gray"
+      ]
+    },
+    {
+      "name": "centre.003",
+      "type": "MESH",
+      "location": [
+        0.10245971381664276,
+        0.0005233764532022178,
+        -9.445190516998991e-05
+      ],
+      "dimensions": [
+        0.0,
+        0.07146365195512772,
+        0.0710928738117218
+      ],
+      "parent": "wheel_fr",
+      "vertices": 60,
+      "polygons": 56,
+      "materials": [
+        "Ferrari_Yellow"
+      ]
+    },
+    {
+      "name": "wheel.003",
+      "type": "MESH",
+      "location": [
+        -3.5171509807696566e-05,
+        0.0005232238909229636,
+        -7.858276148908772e-06
+      ],
+      "dimensions": [
+        0.2575032711029053,
+        0.5640482902526855,
+        0.5642204880714417
+      ],
+      "parent": "wheel_fr",
+      "vertices": 9640,
+      "polygons": 9120,
+      "materials": [
+        "metal_gray"
+      ]
+    },
+    {
+      "name": "rim_fr",
+      "type": "MESH",
+      "location": [
+        0.1138569638133049,
+        0.0005316162132658064,
+        -0.00015441894356627017
+      ],
+      "dimensions": [
+        0.029851004481315613,
+        0.5640015602111816,
+        0.5640704035758972
+      ],
+      "parent": "wheel_fr",
+      "vertices": 2994,
+      "polygons": 3490,
+      "materials": [
+        "metal_gray"
+      ]
+    },
+    {
+      "name": "tire.003",
+      "type": "MESH",
+      "location": [
+        -0.005013122223317623,
+        -0.0,
+        7.629394360719743e-08
+      ],
+      "dimensions": [
+        0.24742354452610016,
+        0.7160466909408569,
+        0.7146480679512024
+      ],
+      "parent": "wheel_fr",
+      "vertices": 1000,
+      "polygons": 1200,
+      "materials": [
+        "Tires"
+      ]
+    },
+    {
+      "name": "nuts.003",
+      "type": "MESH",
+      "location": [
+        0.09354926645755768,
+        -0.006439475808292627,
+        -8.522033749613911e-05
+      ],
+      "dimensions": [
+        0.019173355773091316,
+        0.14884380996227264,
+        0.15473748743534088
+      ],
+      "parent": "wheel_fr",
+      "vertices": 559,
+      "polygons": 422,
+      "materials": [
+        "Interior_dark"
+      ]
+    },
+    {
+      "name": "steering_wheel",
+      "type": "EMPTY",
+      "location": [
+        -0.3459644615650177,
+        0.3456565737724304,
+        0.7988685369491577
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "parent": "RootNode"
+    },
+    {
+      "name": "steering_carbon",
+      "type": "MESH",
+      "location": [
+        0.0002705383230932057,
+        -0.006207198835909367,
+        0.015510348603129387
+      ],
+      "dimensions": [
+        0.24977606534957886,
+        0.33053967356681824,
+        0.1482919305562973
+      ],
+      "parent": "steering_wheel",
+      "vertices": 4134,
+      "polygons": 5632,
+      "materials": [
+        "Carbon_Fiber"
+      ]
+    },
+    {
+      "name": "steering_centre",
+      "type": "MESH",
+      "location": [
+        0.0,
+        1.4210854397564648e-16,
+        -3.814697180359872e-08
+      ],
+      "dimensions": [
+        0.04150029644370079,
+        0.04146736487746239,
+        0.0016819994198158383
+      ],
+      "parent": "steering_wheel",
+      "vertices": 73,
+      "polygons": 108,
+      "materials": [
+        "Ferrari_Yellow"
+      ]
+    },
+    {
+      "name": "steering_column",
+      "type": "MESH",
+      "location": [
+        -6.088256850489415e-05,
+        0.01466804463416338,
+        0.06820705533027649
+      ],
+      "dimensions": [
+        0.25379225611686707,
+        0.17360983788967133,
+        0.15770037472248077
+      ],
+      "parent": "steering_wheel",
+      "vertices": 3408,
+      "polygons": 4110,
+      "materials": [
+        "Interior_dark"
+      ]
+    },
+    {
+      "name": "steering_leather",
+      "type": "MESH",
+      "location": [
+        5.5618285841774195e-05,
+        -0.007075729314237833,
+        0.015366896986961365
+      ],
+      "dimensions": [
+        0.369670569896698,
+        0.2742688059806824,
+        0.13130153715610504
+      ],
+      "parent": "steering_wheel",
+      "vertices": 5838,
+      "polygons": 8144,
+      "materials": [
+        "Leather"
+      ]
+    },
+    {
+      "name": "steering_metal",
+      "type": "MESH",
+      "location": [
+        0.08623981475830078,
+        0.06617431342601776,
+        0.021068381145596504
+      ],
+      "dimensions": [
+        0.029167722910642624,
+        0.02803185023367405,
+        0.010167665779590607
+      ],
+      "parent": "steering_wheel",
+      "vertices": 21,
+      "polygons": 19,
+      "materials": [
+        "metal_gray"
+      ]
+    },
+    {
+      "name": "steering_red_lights",
+      "type": "MESH",
+      "location": [
+        0.005608405917882919,
+        0.07157554477453232,
+        0.02003820426762104
+      ],
+      "dimensions": [
+        0.17568764090538025,
+        0.03421957418322563,
+        0.0163966566324234
+      ],
+      "parent": "steering_wheel",
+      "vertices": 444,
+      "polygons": 504,
+      "materials": [
+        "Taillight_Glass"
+      ]
+    },
+    {
+      "name": "steering_trim",
+      "type": "MESH",
+      "location": [
+        -0.000483016949146986,
+        0.07527182996273041,
+        0.015882300212979317
+      ],
+      "dimensions": [
+        0.30378860235214233,
+        0.09712779521942139,
+        0.04366856813430786
+      ],
+      "parent": "steering_wheel",
+      "vertices": 48,
+      "polygons": 46,
+      "materials": [
+        "Leather_red"
+      ]
+    }
+  ],
+  "materials": [
+    "_0098_DodgerBlue",
+    "Aurora Deep Blue - metallic clearcoat",
+    "Body_Color",
+    "Carbon_Fiber",
+    "Carpet",
+    "Ferrari_Yellow",
+    "Forged satin aluminium",
+    "Glass_Gray",
+    "Interior_dark",
+    "Interior_light",
+    "Leather",
+    "Leather_red",
+    "metal_chrome",
+    "metal_gray",
+    "Optical lamp details",
+    "Performance tyre rubber",
+    "plastic_gray",
+    "Projector_Glass",
+    "Satin carbon and dark trim",
+    "Smoked laminated glass",
+    "Taillight_Glass",
+    "Tires",
+    "Turn_Signal_LED"
+  ],
+  "wheel_nodes": [
+    "rim_rr",
+    "rim_rl",
+    "rim_fl",
+    "rim_fr"
+  ],
+  "bounds": {
+    "min": [
+      -1.128544807434082,
+      -2.266798257827759,
+      -5.546500574382662e-07
+    ],
+    "max": [
+      1.12857985496521,
+      2.2667927742004395,
+      1.2358918190002441
+    ]
+  }
+}

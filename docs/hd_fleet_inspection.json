@@ -1,0 +1,554 @@
+{
+ "source": "https://3dassets.dev/packs/car-park-and-road-vehicle-fleet (CC0 1.0)",
+ "generated": "tools/prepare_hd_fleet.py",
+ "cars": {
+  "SportsCarHD": {
+   "fbx": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\Assets\\Vehicles\\FleetHD\\SportsCarHD.fbx",
+   "wheels": {
+    "wheel_fr": [
+     0.8135,
+     -1.2986,
+     0.3724
+    ],
+    "wheel_fl": [
+     -0.8135,
+     -1.2986,
+     0.3724
+    ],
+    "wheel_rr": [
+     0.8135,
+     1.3084,
+     0.3724
+    ],
+    "wheel_rl": [
+     -0.8135,
+     1.3084,
+     0.3724
+    ]
+   },
+   "bounds": {
+    "min": [
+     -1.0509,
+     -2.265,
+     0.0
+    ],
+    "max": [
+     1.0509,
+     2.265,
+     1.1761
+    ]
+   },
+   "scale": 0.9801,
+   "meshes": 21,
+   "polygons": 47834,
+   "closed_panels": {
+    "door-front-right/body_door-front-right.001": -98.23,
+    "door-front-left/body_door-front-left.001": -97.98,
+    "bonnet/body_bonnet.001": -177.18,
+    "boot/body_boot.001": 90.52
+   },
+   "baked_basis": 21,
+   "flattened_panels": 4,
+   "closed_tailgates": {},
+   "trimmed_interior": {
+    "interior_sports-car_3": 762
+   },
+   "label": "HD MID-ENGINE SPORTS CAR",
+   "era": "modern / wedge GT",
+   "source_id": "32495"
+  },
+  "MuscleCoupeHD": {
+   "fbx": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\Assets\\Vehicles\\FleetHD\\MuscleCoupeHD.fbx",
+   "wheels": {
+    "wheel_fr": [
+     0.7202,
+     -1.2983,
+     0.3091
+    ],
+    "wheel_fl": [
+     -0.7105,
+     -1.2983,
+     0.3091
+    ],
+    "wheel_rr": [
+     0.7202,
+     1.3072,
+     0.3091
+    ],
+    "wheel_rl": [
+     -0.7105,
+     1.3072,
+     0.3091
+    ]
+   },
+   "bounds": {
+    "min": [
+     -0.938,
+     -2.265,
+     0.0
+    ],
+    "max": [
+     0.9379,
+     2.265,
+     1.1716
+    ]
+   },
+   "scale": 0.89845,
+   "meshes": 21,
+   "polygons": 29476,
+   "closed_panels": {
+    "door-front-right/body_door-front-right.001": -98.23,
+    "door-front-left/body_door-front-left.001": -0.26,
+    "bonnet/body_bonnet.001": -178.82,
+    "boot/body_boot.001": 90.44
+   },
+   "baked_basis": 21,
+   "flattened_panels": 4,
+   "closed_tailgates": {},
+   "trimmed_interior": {
+    "interior_classic-coupe_3": 442
+   },
+   "label": "HD CLASSIC MUSCLE COUPE",
+   "era": "1970s / V8",
+   "source_id": "32515"
+  },
+  "TouringCoupeHD": {
+   "fbx": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\Assets\\Vehicles\\FleetHD\\TouringCoupeHD.fbx",
+   "wheels": {
+    "wheel_fr": [
+     0.766,
+     -1.3054,
+     0.3371
+    ],
+    "wheel_fl": [
+     -0.7519,
+     -1.3054,
+     0.3371
+    ],
+    "wheel_rr": [
+     0.766,
+     1.3151,
+     0.3371
+    ],
+    "wheel_rl": [
+     -0.7519,
+     1.3151,
+     0.3371
+    ]
+   },
+   "bounds": {
+    "min": [
+     -0.9984,
+     -2.265,
+     -0.0
+    ],
+    "max": [
+     0.9984,
+     2.265,
+     1.252
+    ]
+   },
+   "scale": 0.96342,
+   "meshes": 21,
+   "polygons": 29452,
+   "closed_panels": {
+    "door-front-right/body_door-front-right.001": -0.23,
+    "door-front-left/body_door-front-left.001": -97.98,
+    "bonnet/body_bonnet.001": -177.53,
+    "boot/body_boot.001": 0.17
+   },
+   "baked_basis": 21,
+   "flattened_panels": 4,
+   "closed_tailgates": {},
+   "trimmed_interior": {
+    "interior_coupe_3": 442
+   },
+   "label": "HD GRAND TOURING COUPE",
+   "era": "modern / GT",
+   "source_id": "32488"
+  },
+  "SportsSaloonHD": {
+   "fbx": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\Assets\\Vehicles\\FleetHD\\SportsSaloonHD.fbx",
+   "wheels": {
+    "wheel_fr": [
+     0.731,
+     -1.3408,
+     0.3432
+    ],
+    "wheel_fl": [
+     -0.731,
+     -1.3408,
+     0.3432
+    ],
+    "wheel_rr": [
+     0.731,
+     1.3501,
+     0.3432
+    ],
+    "wheel_rl": [
+     -0.731,
+     1.3501,
+     0.3432
+    ]
+   },
+   "bounds": {
+    "min": [
+     -0.9548,
+     -2.265,
+     0.0
+    ],
+    "max": [
+     0.9548,
+     2.265,
+     1.289
+    ]
+   },
+   "scale": 0.9279,
+   "meshes": 23,
+   "polygons": 31092,
+   "closed_panels": {
+    "door-front-right/body_door-front-right.001": -0.43,
+    "door-rear-right/body_door-rear-right.001": -0.46,
+    "door-front-left/body_door-front-left.001": -97.98,
+    "door-rear-left/body_door-rear-left.001": -97.99,
+    "bonnet/body_bonnet.001": -177.41,
+    "boot/body_boot.001": 0.16
+   },
+   "baked_basis": 23,
+   "flattened_panels": 6,
+   "closed_tailgates": {},
+   "trimmed_interior": {},
+   "label": "HD SPORTS SALOON",
+   "era": "modern / four-door",
+   "source_id": "32514"
+  },
+  "ClassicSaloonHD": {
+   "fbx": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\Assets\\Vehicles\\FleetHD\\ClassicSaloonHD.fbx",
+   "wheels": {
+    "wheel_fr": [
+     0.6888,
+     -1.3115,
+     0.3229
+    ],
+    "wheel_fl": [
+     -0.6888,
+     -1.3115,
+     0.3229
+    ],
+    "wheel_rr": [
+     0.6888,
+     1.3215,
+     0.3229
+    ],
+    "wheel_rl": [
+     -0.6888,
+     1.3215,
+     0.3229
+    ]
+   },
+   "bounds": {
+    "min": [
+     -0.9162,
+     -2.265,
+     0.0
+    ],
+    "max": [
+     0.9162,
+     2.265,
+     1.4799
+    ]
+   },
+   "scale": 0.99736,
+   "meshes": 23,
+   "polygons": 33516,
+   "closed_panels": {
+    "door-front-right/body_door-front-right.001": -0.51,
+    "door-rear-right/body_door-rear-right.001": -0.55,
+    "door-front-left/body_door-front-left.001": -0.51,
+    "door-rear-left/body_door-rear-left.001": -97.98,
+    "bonnet/body_bonnet.001": -178.23,
+    "boot/body_boot.001": 90.03
+   },
+   "baked_basis": 23,
+   "flattened_panels": 6,
+   "closed_tailgates": {},
+   "trimmed_interior": {},
+   "label": "HD CLASSIC SALOON",
+   "era": "1960s / classic",
+   "source_id": "32499"
+  },
+  "HotHatchHD": {
+   "fbx": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\Assets\\Vehicles\\FleetHD\\HotHatchHD.fbx",
+   "wheels": {
+    "wheel_fr": [
+     0.8555,
+     -1.4233,
+     0.3921
+    ],
+    "wheel_fl": [
+     -0.8344,
+     -1.4233,
+     0.3921
+    ],
+    "wheel_rr": [
+     0.8555,
+     1.4345,
+     0.3921
+    ],
+    "wheel_rl": [
+     -0.8344,
+     1.4345,
+     0.3921
+    ]
+   },
+   "bounds": {
+    "min": [
+     -1.1208,
+     -2.265,
+     -0.0
+    ],
+    "max": [
+     1.1208,
+     2.265,
+     1.6184
+    ]
+   },
+   "scale": 1.12073,
+   "meshes": 22,
+   "polygons": 31124,
+   "closed_panels": {
+    "door-front-right/body_door-front-right.001": -0.2,
+    "door-front-left/body_door-front-left.001": -0.2,
+    "bonnet/body_bonnet.001": -177.26,
+    "boot/body_boot_paintB": -61.78,
+    "boot/glass_boot_glass": -37.86
+   },
+   "baked_basis": 22,
+   "flattened_panels": 5,
+   "closed_tailgates": {},
+   "trimmed_interior": {},
+   "label": "HD HOT HATCH",
+   "era": "1980s / hot hatch",
+   "source_id": "32494"
+  },
+  "ThreeDoorHD": {
+   "fbx": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\Assets\\Vehicles\\FleetHD\\ThreeDoorHD.fbx",
+   "wheels": {
+    "wheel_fr": [
+     0.8318,
+     -1.4241,
+     0.3517
+    ],
+    "wheel_fl": [
+     -0.8122,
+     -1.4241,
+     0.3517
+    ],
+    "wheel_rr": [
+     0.8318,
+     1.4355,
+     0.3517
+    ],
+    "wheel_rl": [
+     -0.8122,
+     1.4355,
+     0.3517
+    ]
+   },
+   "bounds": {
+    "min": [
+     -1.0959,
+     -2.265,
+     -0.0
+    ],
+    "max": [
+     1.0959,
+     2.265,
+     1.6274
+    ]
+   },
+   "scale": 1.13477,
+   "meshes": 22,
+   "polygons": 30216,
+   "closed_panels": {
+    "door-front-right/body_door-front-right.001": -0.2,
+    "door-front-left/body_door-front-left.001": -97.99,
+    "bonnet/body_bonnet.001": -177.08,
+    "boot/body_boot_paintE": -57.33,
+    "boot/glass_boot_glass": -32.95
+   },
+   "baked_basis": 22,
+   "flattened_panels": 5,
+   "closed_tailgates": {},
+   "trimmed_interior": {},
+   "label": "HD THREE-DOOR HATCHBACK",
+   "era": "modern / compact",
+   "source_id": "32493"
+  },
+  "ExecutiveHD": {
+   "fbx": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\Assets\\Vehicles\\FleetHD\\ExecutiveHD.fbx",
+   "wheels": {
+    "wheel_fr": [
+     0.6947,
+     -1.3393,
+     0.309
+    ],
+    "wheel_fl": [
+     -0.6947,
+     -1.3393,
+     0.309
+    ],
+    "wheel_rr": [
+     0.6947,
+     1.348,
+     0.309
+    ],
+    "wheel_rl": [
+     -0.6947,
+     1.348,
+     0.309
+    ]
+   },
+   "bounds": {
+    "min": [
+     -0.9061,
+     -2.265,
+     -0.0
+    ],
+    "max": [
+     0.9061,
+     2.265,
+     1.2415
+    ]
+   },
+   "scale": 0.8725,
+   "meshes": 23,
+   "polygons": 30788,
+   "closed_panels": {
+    "door-front-right/body_door-front-right.001": -0.37,
+    "door-rear-right/body_door-rear-right.001": -0.4,
+    "door-front-left/body_door-front-left.001": -97.98,
+    "door-rear-left/body_door-rear-left.001": -0.4,
+    "bonnet/body_bonnet.001": -177.37,
+    "boot/body_boot.001": 90.05
+   },
+   "baked_basis": 23,
+   "flattened_panels": 6,
+   "closed_tailgates": {},
+   "trimmed_interior": {},
+   "label": "HD EXECUTIVE SALOON",
+   "era": "modern / luxury",
+   "source_id": "32492"
+  },
+  "CityCarHD": {
+   "fbx": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\Assets\\Vehicles\\FleetHD\\CityCarHD.fbx",
+   "wheels": {
+    "wheel_fr": [
+     0.869,
+     -1.5071,
+     0.3573
+    ],
+    "wheel_fl": [
+     -0.8621,
+     -1.5071,
+     0.3573
+    ],
+    "wheel_rr": [
+     0.869,
+     1.5197,
+     0.3573
+    ],
+    "wheel_rl": [
+     -0.8621,
+     1.5197,
+     0.3573
+    ]
+   },
+   "bounds": {
+    "min": [
+     -1.156,
+     -2.265,
+     0.0
+    ],
+    "max": [
+     1.1559,
+     2.265,
+     1.9336
+    ]
+   },
+   "scale": 1.26114,
+   "meshes": 22,
+   "polygons": 30608,
+   "closed_panels": {
+    "door-front-right/body_door-front-right.001": -0.26,
+    "door-front-left/body_door-front-left.001": -97.98,
+    "bonnet/body_bonnet.001": -177.13,
+    "boot/body_boot_paintC": -68.32,
+    "boot/glass_boot_glass": -46.16
+   },
+   "baked_basis": 22,
+   "flattened_panels": 5,
+   "closed_tailgates": {},
+   "trimmed_interior": {},
+   "label": "HD CITY CAR",
+   "era": "modern / city",
+   "source_id": "32487"
+  },
+  "ElectricHatchHD": {
+   "fbx": "D:\\ai_for_games\\赛车游戏复刻\\Alsphalt8\\Assets\\Vehicles\\FleetHD\\ElectricHatchHD.fbx",
+   "wheels": {
+    "wheel_fr": [
+     0.7902,
+     -1.4621,
+     0.3394
+    ],
+    "wheel_fl": [
+     -0.7902,
+     -1.4621,
+     0.3394
+    ],
+    "wheel_rr": [
+     0.7902,
+     1.4726,
+     0.3394
+    ],
+    "wheel_rl": [
+     -0.7902,
+     1.4726,
+     0.3394
+    ]
+   },
+   "bounds": {
+    "min": [
+     -1.0383,
+     -2.265,
+     0.0
+    ],
+    "max": [
+     1.0383,
+     2.265,
+     1.6596
+    ]
+   },
+   "scale": 1.04813,
+   "meshes": 26,
+   "polygons": 30482,
+   "closed_panels": {
+    "door-front-right/body_door-front-right.001": -98.24,
+    "door-rear-right/body_door-rear-right.001": -98.24,
+    "door-front-left/body_door-front-left.001": -97.98,
+    "door-rear-left/body_door-rear-left.001": -0.4,
+    "bonnet/body_bonnet.001": -177.55,
+    "boot/body_boot_paint": -64.21,
+    "boot/glass_boot_glass": -40.08
+   },
+   "baked_basis": 26,
+   "flattened_panels": 7,
+   "closed_tailgates": {},
+   "trimmed_interior": {},
+   "label": "HD ELECTRIC HATCHBACK",
+   "era": "2020s / EV",
+   "source_id": "32496"
+  }
+ }
+}

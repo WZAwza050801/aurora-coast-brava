@@ -1,0 +1,49 @@
+# Normalise line endings so the same checkout does not produce different
+# diffs on Windows and Linux.
+* text=auto eol=lf
+
+# Unity serialises these as text and expects LF in the repository.
+*.cs text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text eol=lf
+*.meta text eol=lf
+*.json text eol=lf
+*.shader text eol=lf
+*.hlsl text eol=lf
+*.compute text eol=lf
+
+# Scripts
+*.py text eol=lf
+*.sh text eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Docs
+*.md text eol=lf
+*.txt text eol=lf
+
+# Binary: never touch.
+*.fbx binary
+*.obj binary
+*.glb binary
+*.gltf binary
+*.bin binary
+*.blend binary
+*.blend1 binary
+*.unitypackage binary
+*.wav binary
+*.ogg binary
+*.flac binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.hdr binary
+*.exr binary
+*.pdf binary
+*.zip binary
+*.7z binary
+*.exe binary
+*.dll binary
+*.pdb binary
